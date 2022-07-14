@@ -23,6 +23,8 @@ module.exports = {
     plugins: [
         new HTMLWebpackPlugin({ filename: "index.html", template: "./src/index.html" }),
         new HTMLWebpackPlugin({ filename: "Pushkin.html", template: "./src/Pushkin.html" }),
+        new HTMLWebpackPlugin({ filename: "Hachapurnay.html", template: "./src/Hachapurnay.html" }),
+        new HTMLWebpackPlugin({ filename: "Samuray.html", template: "./src/Samuray.html" }),
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin({
             patterns: [

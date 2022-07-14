@@ -4,9 +4,8 @@
   font-family: 'Roboto', sans-serif;
 }
 .container{
-  max-width: 963px;
-  padding-left: 0;
-  padding-right: 0;
+  max-width: 998px;
+  padding: 0 20px;
 }
 .row{
   padding: 0;
@@ -108,5 +107,111 @@
     display: flex;
     align-items: flex-end;
     color: #FFFFFF;
+  }
+}
+.hero{
+  background: url("/src/assets/photo_2022-07-14_11-36-02.jpg") center/cover ;
+  padding: 80px 0;
+
+  &__content-box{
+    background: white;
+    padding: 38px 33px;
+    max-width: 390px;
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+    color: #1D1D1D;
+    margin-bottom: 54px;
+    margin-left: 6px;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-left: 5px;
+  }
+  &__time{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    background: #262626;
+    border-radius: 16px;
+    padding: 8px 16px;
+    justify-content: flex-end;
+  }
+
+
+}
+.main__nav{
+  padding: 32px 0 29px;
+  border-bottom: #75757533 1px solid;
+}
+.nav__link{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+  margin-right: 41px;
+  &:hover{
+    color: #327430;
+
+  }
+}
+
+.products{
+  padding: 56px 0 28px;
+
+  &__title{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    margin-bottom: 32px;
+  }
+  &__card{
+    display: flex;
+    max-height: 160px;
+    max-width: 470px;
+    justify-content: space-between;
+    border: 1px solid #75757533;
+    margin-bottom: 49px;
+    margin-right: 5px;
+    cursor: pointer;
+    &:hover &__subtitle{
+      opacity: 1;
+    }
+
+    &__text-content{
+      padding: 16px;
+
+    }
+    &__title{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1D1D1D;
+      margin-bottom: 4px;
+
+    }
+    &__subtitle{
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 21px;
+      color: #626262;
+      margin-bottom: 57px;
+      opacity: 0;
+    
+    }
   }
 }
