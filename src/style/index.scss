@@ -28,6 +28,9 @@
     display: flex;
     justify-content: space-between;
 
+    &:first-child{
+      padding: 2em 4em;
+    }
 
     button {
       font-weight: 500;
@@ -89,7 +92,7 @@
 }
 .footer{
   background: #000;
-  padding: 66px 0 52px;
+  padding: 66px 10px 52px;
 
   &__logo{
     padding-bottom: 33px;
@@ -118,6 +121,11 @@
     padding: 38px 33px;
     max-width: 390px;
   }
+  &__flex-box{
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__title{
     font-weight: 400;
     font-size: 36px;
@@ -194,7 +202,9 @@
 
     &__text-content{
       padding: 16px;
-
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     &__title{
       font-weight: 400;
@@ -209,9 +219,7 @@
       font-size: 13px;
       line-height: 21px;
       color: #626262;
-      margin-bottom: 57px;
       opacity: 0;
-    
     }
   }
 }
