@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc10e6c-73bb-4466-a59d-4d426d16a233" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pushkin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Samuray.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Samuray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="adc10e6c-73bb-4466-a59d-4d426d16a233" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +59,7 @@
       <updated>1657627561330</updated>
       <workItem from="1657627562815" duration="2001000" />
       <workItem from="1657685281787" duration="14658000" />
-      <workItem from="1657771414982" duration="18372000" />
+      <workItem from="1657771414982" duration="19581000" />
     </task>
     <servers />
   </component>
